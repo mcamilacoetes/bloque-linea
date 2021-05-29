@@ -1,0 +1,52 @@
+div{
+    background-color:  white;
+    width:500px;
+    height: 650px;
+}
+aside{
+     background-color: yellow;
+    width: 200px;
+    height: 100px;
+    
+}
+
+span{
+     width: 200px;
+    height: 100px;
+     background-color: aqua;
+ 
+}
+#span1{
+   float: left; /*flota a ala izqauierda*/
+     width: 100px;
+    height: 100px;
+     background-color:orange;
+    border: 5px solid black;
+}
+ol{
+list-style: none;
+    
+    color: white;
+    font-size: 22px; /*Tamaño de letra.*/
+    color:black;
+    margin-left: 100px;
+    
+}
+li{
+    
+    margin-right: 20px;
+}
+/*Definicion de los Enlaces*/
+li a{
+    display: block;
+    color: #000;
+    padding: 8px 0px 8px 16px; /*top, right , booton, left */
+    text-decoration: none;
+}
+/*modificar el color de fondo al pasar el mouse*/
+li a:hover{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 8px;
+}
